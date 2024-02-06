@@ -1,0 +1,195 @@
+[11-Feb-2023 13:01:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'discount' doesn't have a default value in /home/ullql3vr/public_html/pos/main/incoming.php:40
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/incoming.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/incoming.php on line 40
+[11-Feb-2023 13:02:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'discount' doesn't have a default value in /home/ullql3vr/public_html/pos/main/incoming.php:40
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/incoming.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/incoming.php on line 40
+[11-Feb-2023 13:02:43 UTC] PHP Notice:  Undefined index: product in /home/ullql3vr/public_html/pos/main/incoming.php on line 5
+[11-Feb-2023 13:02:43 UTC] PHP Notice:  Undefined index: invoice in /home/ullql3vr/public_html/pos/main/incoming.php on line 6
+[11-Feb-2023 13:02:43 UTC] PHP Notice:  Undefined index: product in /home/ullql3vr/public_html/pos/main/incoming.php on line 7
+[11-Feb-2023 13:02:43 UTC] PHP Notice:  Undefined index: qty in /home/ullql3vr/public_html/pos/main/incoming.php on line 8
+[11-Feb-2023 13:02:43 UTC] PHP Notice:  Undefined index: pt in /home/ullql3vr/public_html/pos/main/incoming.php on line 9
+[11-Feb-2023 13:02:43 UTC] PHP Notice:  Undefined index: date in /home/ullql3vr/public_html/pos/main/incoming.php on line 10
+[11-Feb-2023 13:02:43 UTC] PHP Notice:  Undefined index: discount in /home/ullql3vr/public_html/pos/main/incoming.php on line 11
+[11-Feb-2023 13:03:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.a.invoice_number' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[11-Feb-2023 13:03:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.a.invoice_number' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[11-Feb-2023 13:03:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.a.invoice_number' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[11-Feb-2023 13:03:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.a.invoice_number' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[11-Feb-2023 13:04:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.a.invoice_number' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[11-Feb-2023 13:05:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.a.invoice_number' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[11-Feb-2023 13:05:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.a.invoice_number' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[11-Feb-2023 13:07:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.a.invoice_number' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[11-Feb-2023 13:07:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.a.invoice_number' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[11-Feb-2023 13:07:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'discount' doesn't have a default value in /home/ullql3vr/public_html/pos/main/incoming.php:40
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/incoming.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/incoming.php on line 40
+[11-Feb-2023 13:08:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'discount' doesn't have a default value in /home/ullql3vr/public_html/pos/main/incoming.php:40
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/incoming.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/incoming.php on line 40
+[11-Feb-2023 13:16:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.a.invoice_number' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[11-Feb-2023 13:16:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.a.invoice_number' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[11-Feb-2023 13:19:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.a.invoice_number' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[11-Feb-2023 13:19:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.a.invoice_number' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[11-Feb-2023 13:19:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.a.invoice_number' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[11-Feb-2023 13:19:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'discount' doesn't have a default value in /home/ullql3vr/public_html/pos/main/incoming.php:40
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/incoming.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/incoming.php on line 40
+[11-Feb-2023 13:32:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'discount' doesn't have a default value in /home/ullql3vr/public_html/pos/main/incoming.php:40
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/incoming.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/incoming.php on line 40
+[11-Feb-2023 13:43:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'discount' doesn't have a default value in /home/ullql3vr/public_html/pos/main/incoming.php:41
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/incoming.php(41): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/incoming.php on line 41
+[11-Feb-2023 13:47:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'balance' doesn't have a default value in /home/ullql3vr/public_html/pos/main/savesales.php:23
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/savesales.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/savesales.php on line 23
+[11-Feb-2023 13:51:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.a.invoice_number' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[11-Feb-2023 13:51:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.a.invoice_number' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[11-Feb-2023 14:11:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'cost' doesn't have a default value in /home/ullql3vr/public_html/pos/main/saveproduct.php:23
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/saveproduct.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/saveproduct.php on line 23
+[11-Feb-2023 14:14:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'onhand_qty' doesn't have a default value in /home/ullql3vr/public_html/pos/main/saveproduct.php:23
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/saveproduct.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/saveproduct.php on line 23
+[13-Feb-2023 00:29:10 UTC] PHP Warning:  Undefined array key "supplier" in /home/ullql3vr/public_html/pos/main/saveproduct.php on line 8
+[13-Feb-2023 22:29:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.b.gen_name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[13-Feb-2023 22:29:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.b.gen_name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[13-Feb-2023 22:31:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.b.gen_name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[13-Feb-2023 22:31:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.b.gen_name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[13-Feb-2023 22:31:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.b.gen_name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:300
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(300): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 300
+[14-Feb-2023 18:51:25 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.b.gen_name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:281
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(281): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 281
+[14-Feb-2023 18:51:28 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.b.gen_name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:281
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(281): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 281
+[14-Feb-2023 18:51:35 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.b.gen_name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:281
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(281): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 281
+[14-Feb-2023 18:51:46 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ullql3vr_dodolan.b.gen_name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/ullql3vr/public_html/pos/main/salesreport.php:281
+Stack trace:
+#0 /home/ullql3vr/public_html/pos/main/salesreport.php(281): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ullql3vr/public_html/pos/main/salesreport.php on line 281
+[26-Feb-2023 05:36:43 Asia/Jakarta] PHP Warning:  Undefined variable $fgfg in /home/ullql3vr/public_html/pos/main/sales.php on line 148
+[26-Feb-2023 05:36:43 Asia/Jakarta] PHP Warning:  Undefined variable $asd in /home/ullql3vr/public_html/pos/main/sales.php on line 148
+[26-Feb-2023 17:21:36 Asia/Jakarta] PHP Warning:  Undefined variable $fgfg in /home/ullql3vr/public_html/pos/main/sales.php on line 148
+[26-Feb-2023 17:21:36 Asia/Jakarta] PHP Warning:  Undefined variable $asd in /home/ullql3vr/public_html/pos/main/sales.php on line 148
+[26-Feb-2023 17:21:41 Asia/Jakarta] PHP Warning:  Undefined variable $fgfg in /home/ullql3vr/public_html/pos/main/sales.php on line 148
+[26-Feb-2023 17:21:41 Asia/Jakarta] PHP Warning:  Undefined variable $asd in /home/ullql3vr/public_html/pos/main/sales.php on line 148
+[26-Feb-2023 17:21:45 Asia/Jakarta] PHP Warning:  Undefined variable $fgfg in /home/ullql3vr/public_html/pos/main/sales.php on line 148
+[26-Feb-2023 17:21:45 Asia/Jakarta] PHP Warning:  Undefined variable $asd in /home/ullql3vr/public_html/pos/main/sales.php on line 148
+[26-Feb-2023 17:21:51 Asia/Jakarta] PHP Warning:  Undefined variable $fgfg in /home/ullql3vr/public_html/pos/main/sales.php on line 148
+[26-Feb-2023 17:21:51 Asia/Jakarta] PHP Warning:  Undefined variable $asd in /home/ullql3vr/public_html/pos/main/sales.php on line 148
+[26-Feb-2023 17:21:54 Asia/Jakarta] PHP Warning:  Undefined variable $fgfg in /home/ullql3vr/public_html/pos/main/sales.php on line 148
+[26-Feb-2023 17:21:54 Asia/Jakarta] PHP Warning:  Undefined variable $asd in /home/ullql3vr/public_html/pos/main/sales.php on line 148
